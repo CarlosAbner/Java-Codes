@@ -10,5 +10,7 @@ public class Aula02TiposPrimitivos {
         int idade = 10;
         System.out.println(idade);
         System.out.println("A Idade do meu irmão é: " + idade);
+
+        
     }
 }
