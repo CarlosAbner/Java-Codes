@@ -31,7 +31,3 @@ public class Aula07Exercicios {
     }
 
 }
-
-
-// primeiro valor
-    // 3.367,064 imposto

@@ -1,0 +1,53 @@
+// link da aula : https://www.youtube.com/watch?v=AYMtqJSrQTU&list=PL62G310vn6nFIsOCC0H-C2infYgwm8SWW&index=26
+
+public class Aula06EstruturasCondicionais05 {
+    public static void main(String[] args) {
+        // imprima o dia da semana considerando o 1 como domingo
+        byte dia = 3;
+
+        // switch aceita = char, int, byte, short, enum, string
+        switch (dia) {
+            case 1 :
+                System.out.println("Domingo");
+                break;
+            case 2 :
+                System.out.println("Segunda");
+                break;
+            case 3 :
+                System.out.println("Terça");
+                break;
+            case 4 :
+                System.out.println("Quarta");
+                break;
+            case 5 :
+                System.out.println("Quinta");
+                break;
+            case 6 :
+                System.out.println("Sexta");
+                break;
+            case 7 :
+                System.out.println("Sabado");
+                break;
+            default:
+                System.out.println("Opção invalida");
+        }
+
+
+        // definindo sexo
+
+        char sexo = 'F';
+
+        switch (sexo) {
+            case 'M':
+                System.out.println("Masculino");
+                break;
+            case 'F':
+                System.out.println("Feminino");
+                break;
+
+            default:
+                System.out.println("Tipo de Sexo Invalido");;
+        }
+
+    }
+}
