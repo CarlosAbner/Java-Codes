@@ -1,6 +1,6 @@
 public class Aula07EstruturasDeRepeticao04 {
     public static void main(String[] args) {
-        
+
         // dado o valor de um carro, descubra em quantas vezes ele pode ser parcelado
         // condição é que o valor da parcela tem que ser maior ou igual a 1000 reais
 
